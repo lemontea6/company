@@ -1,0 +1,556 @@
+
+*,
+*:before,
+*:after{
+box-sizing: border-box;	}
+
+
+html{
+scroll-behavior: smooth;	
+}
+	
+.number{
+	color:#66D2CE;
+}
+#greeting_span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.description_span{
+  font-size: 40px;
+  color:grey;
+  font-weight: bold;
+}
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	color:#333;
+	line-height:1.5;
+	margin: 0;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+
+#intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:100%;
+	height:100vh;
+	
+
+	 background-image:url('https://i.pinimg.com/originals/6a/8e/6b/6a8e6b17e9ab4a8a03ae4b5a9c26bd28.jpg ');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+	  -webkit-background-size:cover;
+	  background-size:cover;  }
+ 
+ .header_logo:hover{
+   
+	color: brown/* #88F1E1 */  ;
+}
+
+ .intro_inner{
+ 	width:100%;
+ 	max-width: 880px;
+ 	margin: 60px auto 0;
+ 	text-align: center;/*якщо у батька текст елайн то у всіх дітей(елементах що в еьому тоже)*/
+ }
+
+.intro_uppertitle{
+	/* font-family: 'Kaushan Script',cursive; */
+	font-family: 'IM Fell French Canon SC', serif;
+	font-size: 65px;
+	color: #fff;
+	}
+
+.intro_title{
+	font-size: 100px;
+	font-weight: 500;
+	/* font-family: 'Kaushan Script',cursive; */
+	font-family: 'IM Fell French Canon SC', serif;
+	 text-transform: uppercase; 
+	color:#fff;
+	
+	}
+	.intro_title:after {
+	content:"";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+#button{
+   display: inline-block;
+   vertical-align: top;
+   padding: 8px 30px; 
+   border:  3px solid #fff;
+   color:#fff;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 700;
+   text-decoration: none;
+   transition: background 0.1s  
+   linear, color 0.1s linear;
+
+}
+#button:hover{
+	background-color: #fff;
+	color:#333;
+
+}
+
+  
+
+.header{
+ width:100%; 
+  padding-top:30px;	
+ position:absolute;
+ top:0;
+ left:0;
+ right:0;
+ z-index:100; 
+}
+.upper_container{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;}
+
+.header_inner{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0px;
+   right: 0px;
+   width: 100%;
+   
+background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+   padding: 25px;}
+
+
+   .header_logo{
+	font-size:30px;
+	font-weight: 700;
+	color:#fff;
+	position: fixed;
+	left:20px;
+	text-decoration: none;
+	transition-duration:  250ms;
+
+
+}
+    
+
+
+
+
+.nav {
+   font-size: 14px;
+   text-transform: uppercase;
+   position: absolute;
+   right: 20px;
+}
+.nav_link{
+	display:inline;
+	
+	margin: 0 15px;
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration:none;
+	transition: color 100ms linear;
+
+}
+.nav_link:hover{
+
+   color:#88F1E1;
+   text-decoration: underline;
+}
+/* FIRST SECTION */
+#section{	
+	padding: 80px 0;
+	
+	 background: url("https://images4.alphacoders.com/135/thumb-1920-1356810.jpeg"); 
+
+	
+	background-size:cover;
+	-webkit-background-size:cover; 
+	
+	width: 100%;
+	height: 1400px;
+	
+	
+
+
+
+}
+.section_header{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle{
+    font-size: 24px;
+    font-family: font-family: 'Kaushan Script',cursive;
+	color:#fff;
+}
+.section_title{
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.section_title:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height:3px;
+	margin: 30px auto 0;
+	background-color:#f38181;
+	margin-bottom: 30px;
+}
+.section_text{
+	font-size:90px;
+	color:#fff;
+
+}
+.text{
+	font-size: 20px;
+	color:black;
+}
+/* SECOND SECTION 40TH */
+#section2{
+	padding: 80px 0;
+	background: url("https://i.imgur.com/cGkdxIO.jpg");
+	
+	background-size:cover;
+	
+	width: 100%;
+	
+    
+}
+.section_header2{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle2{
+	font-size: 25px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.section_title2{
+ color:#fff;
+ font-size: 30px;
+ text-transform: uppercase;
+}
+.section_title2:first-letter{
+	font-size: 40px;
+}
+
+.text2{
+	font-size: 20px;
+	color:#fff;
+}
+/*THIRD SECTION 50TH */
+
+	#section3{
+	padding: 80px 0;
+	background: url("https://fullhdpictures.org/wp-content/uploads/2019/09/The-Witcher-Wallpapers.jpg")
+	no-repeat;
+	background-size:cover;
+	background-color: grey;
+}
+.section_header3{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle3{
+	font-size: 25px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.section_title3{
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.section_title3:first-letter{
+	font-size: 40px;
+}
+.text3{
+	font-size: 20px;
+	color:#fff;
+}
+/* FORTH SECTION 60TH*/
+
+.section_title4{
+	font-size: 30px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+}
+
+	#section4{
+	padding: 80px 0;
+	background: url("https://images.wallpapersden.com/image/download/the-witcher-iii-wild-hunt-screenshoot_64082_2880x1800.jpg");
+
+	
+	
+}
+.section_header4{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle4{
+	font-size: 25px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+
+}
+.section_title4{
+	font-size: 30px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+}
+.section_title4:first-letter{
+	font-size: 40px;
+}
+.text4{
+	font-size: 20px;
+	color:#fff;
+}
+/* FORTH SECTION 70TH*/
+
+
+	#section5{
+	padding: 80px 0;
+	background: url("https://i.pinimg.com/originals/d7/2b/92/d72b927c8ab7d41db2bab6510c757bf8.jpg");
+
+	
+	background-size:cover;
+	
+}
+.section_header5{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle5{
+	font-size: 25px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.section_title5{
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.section_title5:first-letter{
+	font-size: 40px;
+}
+.text5{
+	font-size: 15px;
+	color:#fff;
+}
+/* FORTH SECTION 80TH*/
+.section_title6{
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+	#section6{
+	padding: 80px 0;
+	background: url("https://4kwallpapers.com/images/walls/thumbs_3t/24795.jpg");
+
+	background-size:cover;
+	
+}
+.section_header6{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle6{
+	font-size: 25px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.section_title6:first-letter{
+	font-size: 40px;
+}
+.section_title6{
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.text6{
+	font-size: 15px;
+color:#fff;
+}
+	/* FORTH SECTION 90TH*/
+
+
+	#section7{
+	padding: 80px 0;
+	background: url("https://i.imgur.com/DXhUW.png");
+
+	
+	background-size:cover;
+	
+}
+.section_header7{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle7{
+	font-size: 25px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.section_title7{
+	font-size: 30px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.section_title7:first-letter{
+	font-size: 40px;
+}
+.text7{
+	font-size: 15px;
+color:#fff;
+}
+	/* FORTH SECTION 00TH*/
+.section_title8{
+	font-size: 30px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+	
+}
+
+	#section8{
+	padding: 80px 0;
+	background: url("https://wallup.net/wp-content/uploads/2017/03/27/438875-video_game_characters-The_Witcher-The_Witcher_3_Wild_Hunt-Yennefer_of_Vengerberg-trench_coat.jpg");   
+	
+	background-size:cover;
+}
+.section_header8{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle8{
+	font-size: 25px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+
+}
+.section_title8{
+	font-size: 30px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+}
+.section_title8:first-letter{
+	font-size: 40px;
+}
+.text8{
+	font-size: 20px;
+color:#fff;
+}
+	/* FORTH SECTION 2010TH*/
+.section_title9{
+	font-size: 30px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+}
+
+	#section9{
+	padding: 80px 0;
+	background: url("https://4kwallpapers.com/images/walls/thumbs_3t/23637.jpg");
+	
+	background-size:cover;
+	
+}
+.section_header9{
+	width:100%;
+	max-width: 950px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.section_uppertitle9{
+	font-size: 25px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+
+}
+.section_title9{
+	font-size: 30px;
+	font-weight: 700;
+	color:#333;
+	text-transform: uppercase;
+}
+.section_title9:first-letter{
+	font-size: 40px;
+}
+.text9{
+	font-size: 20px;
+color:#fff;}
